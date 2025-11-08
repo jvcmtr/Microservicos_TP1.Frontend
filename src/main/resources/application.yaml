@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Joao_Ramos_TP1_Frontend
+  config:
+    import: "configserver:http://localhost:8888"

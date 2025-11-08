@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Joao Ramos DR3 TP1</title>
+</head>
+<link th:href="${URL + '/css/main.css'}" rel="stylesheet">
+<body>
+<h1> Home </h1>
+<p> Esta é uma página estatica.</p>
+<p> Acesse um dos links abaixo:</p>
+<p>
+    <ul>
+        <li><a th:href="${URL + '/hello'}"> Diga Olá </a></li>
+        <li><a th:href="${URL + '/hello?lang=pt'}"> Diga "Oi" </a></li>
+        <li><a th:href="${URL + '/hello?lang=en'}"> Diga "Hello"</a></li>
+        <li><a th:href="${URL + '/hello?lang=it'}"> Diga olá em italiano</a></li>
+        <li><a th:href="${URL + '/hello?lang=de'}"> Diga olá em alemão</a></li>
+        <li><a th:href="${URL + '/hello?lang=jv'}"> Diga olá em javanês </a></li>
+        <li><a th:href="${URL + '/hello?lang=zu'}"> Diga olá em zulu </a></li>
+        <li><a th:href="${URL + '/hello?lang=sindagrin'}"> Diga olá em elfico </a></li>
+    </ul>
+</p>
+</body>
+</html>
